@@ -13,7 +13,7 @@ def main():
     checking_shopping_cart()
 
     colors = ["aqua", "orange", "yellow", "blue", "green", "violet", "gold"]
-    testing_collections_assert(colors)
+    collections_assert(colors)
 
     hero_inventory = ["Bow", "Axe", "Gold"]
     emmett = Hero("Emmett", 50, "sword", hero_inventory, True)
@@ -82,7 +82,7 @@ def expected_value():
 
 
 # Нужно передать в метод массив, который соответствует условиям в утверждении
-def testing_collections_assert(colors):
+def collections_assert(colors):
     assert_that(colors) \
         .is_not_empty() \
         .does_not_contain_duplicates() \
