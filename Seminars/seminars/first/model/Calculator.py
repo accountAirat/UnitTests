@@ -2,6 +2,7 @@ import math
 
 
 class Calculator:
+
     def calculation(self, first_operand: int, second_operand: int, operator: str) -> int:
         result: int
         match operator:
