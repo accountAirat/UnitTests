@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.4, pytest-7.4.3, pluggy-1.3.0
+rootdir: /home/amingaleev/Development/PythonSpecialization/UnitTests
+plugins: cov-4.1.0
+collected 6 items
+
+test_list_average.py ......                                              [100%]
+
+============================== 6 passed in 0.01s ===============================

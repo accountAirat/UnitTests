@@ -1,0 +1,9 @@
+Name                                      Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------
+Seminars/__init__.py                          0      0   100%
+Seminars/seminars/__init__.py                 0      0   100%
+Seminars/seminars/six/__init__.py             0      0   100%
+Seminars/seminars/six/hw/ListAverage.py      12      0   100%
+test_list_average.py                         20      0   100%
+-----------------------------------------------------------------------
+TOTAL                                        32      0   100%
